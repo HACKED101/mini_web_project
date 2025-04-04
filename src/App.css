@@ -1,0 +1,58 @@
+
+.App {
+  text-align: center;
+  padding: 20px;
+  
+}
+.heading {
+  color: #fff;
+  text-decoration: #333333;
+  text-shadow: green 5px 5px 5px;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.movie-card {
+  width: 250px;
+  background: #1a1a1a;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+  color: white;
+}
+
+.movie-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.movie-poster {
+  width: 100%;
+  height: 370px;
+  object-fit: cover;
+}
+
+.movie-details {
+  padding: 15px;
+}
+
+.movie-title {
+  margin: 0 0 8px 0;
+  font-size: 18px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.movie-info {
+  align-items: center;
+}
