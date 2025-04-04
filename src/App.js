@@ -12,6 +12,7 @@ function App() {
   return (
     <div className="App">
       <h1 className='heading'>Movie Mania</h1>
+    <h1 className='heading'>Creator Portfolio: <a href="https://www.linkedin.com/in/raunit-raj">Link</a></h1>
 
       <SearchBar onSearch={setMovies} resetTrigger={location.pathname} />
 
